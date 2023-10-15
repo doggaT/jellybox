@@ -44,7 +44,9 @@ jobs:
         run: bundle exec rails db:setup
       # Add or replace test runners here
       - name: Run tests
-        run: bundle exec rspec
+        run: |
+          bundle exec rake test
+          bundle exec rspec
 
   Lint:
     if: ${{ github.actor != 'dependabot[bot]' }}
