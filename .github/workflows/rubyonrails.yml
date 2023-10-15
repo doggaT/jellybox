@@ -20,8 +20,8 @@ jobs:
           - "5432:5432"
         env:
           POSTGRES_DB: JellyBox_test
-          POSTGRES_USER: ${{PG_USER}}
-          POSTGRES_PASSWORD: ${{PG_PASSWORD}}
+          POSTGRES_USER: ${{secrets.PG_USER}}
+          POSTGRES_PASSWORD: ${{secrets.PG_PASSWORD}}
     env:
       RAILS_ENV: test
       DATABASE_URL: "postgres://rails:password@localhost:5432/JellyBox_test"
