@@ -1,4 +1,4 @@
-# This workflow uses actions that are not certified by GitHub.  They are
+# This workflow uses actions that are not certified by GitHub. They are
 # provided by a third-party and are governed by separate terms of service,
 # privacy policy, and support documentation.
 #
@@ -16,9 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: postgres:11-alpine
+        image: postgres:12.1-alpine
         ports:
           - "5432:5432"
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
         env:
           POSTGRES_DB: JellyBox_test
           POSTGRES_USER: ${{secrets.PG_USER}}
