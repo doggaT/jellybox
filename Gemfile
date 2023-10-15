@@ -13,9 +13,10 @@ gem 'rails', '~> 7.0.8'
 gem 'sprockets-rails'
 gem 'stimulus-rails'
 gem 'turbo-rails'
-# gem 'bundler-audit', '~> 0.4.0'
+gem 'bundler-audit'
 gem 'bootsnap', require: false
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem "brakeman"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 gem 'bcrypt', '~> 3.1.7'
