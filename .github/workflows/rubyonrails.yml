@@ -60,6 +60,6 @@ jobs:
       - name: Security audit dependencies
         uses: andrewmcodes/bundler-audit-action@main
       - name: Security audit application code
-        run: bin/brakeman -q -w2
+        run: devmasx/brakeman-linter-action@v1.0.0
       - name: Lint Ruby files
         run: bin/rubocop --parallel
