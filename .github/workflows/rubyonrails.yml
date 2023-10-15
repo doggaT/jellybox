@@ -22,11 +22,11 @@ jobs:
         options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
         env:
           POSTGRES_DB: JellyBox_test
-          POSTGRES_USER: ${{secrets.PG_USER}}
-          POSTGRES_PASSWORD: ${{secrets.PG_PASSWORD}}
+          POSTGRES_USER: ${{ secrets.PG_USER }}
+          POSTGRES_PASSWORD: ${{ secrets.PG_PASSWORD }}
     env:
       RAILS_ENV: test
-      DATABASE_URL: "postgres://rails:password@localhost:5432/JellyBox_test"
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
