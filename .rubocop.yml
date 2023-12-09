@@ -28,6 +28,9 @@ Style/ClassAndModuleChildren:
 Style/SymbolProc:
   Enabled: false
 
+Style/BlockComments:
+  Enabled: false
+
 Style/MethodCallWithoutArgsParentheses:
   Enabled: false
 

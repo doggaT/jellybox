@@ -1,7 +1,13 @@
 require "test_helper"
 
 class DirectoriesControllerTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
+  test "create directory" do
+    User.new
+    user.username = 'Test'
+    user.email = 'test@example.com'
+    user.password = 'password'
+    user.password_confirmation = 'password'
+    user.save!
+    assert true
+  end
 end
