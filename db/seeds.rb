@@ -6,13 +6,13 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-# user = User.new
-# user.username = 'admin'
-# user.email = 'admin@email.com'
-# user.password = 'password'
-# user.password_confirmation = 'password'
-# user.save!
-#
+user = User.new
+user.username = 'admin'
+user.email = 'admin@email.com'
+user.password = 'password'
+user.password_confirmation = 'password'
+user.save!
+
 # user = User.find_by(username: 'admin')
 #
 # user_home_directory = user.directories.find_by(name: 'home')
