@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @subdirectory %>
+
+<div>
+  <%= link_to "Edit this subdirectory", edit_subdirectory_path(@subdirectory) %> |
+  <%= link_to "Back to subdirectories", subdirectories_path %>
+
+  <%= button_to "Destroy this subdirectory", @subdirectory, method: :delete %>
+</div>

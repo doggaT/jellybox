@@ -2,5 +2,11 @@
 import "../controllers"
 import "@hotwired/turbo-rails"
 import "./controllers"
-import "bootstrap";
+import "jquery"
+import "popper"
+import "turbolinks"
+import "bootstrap"
+//= require_tree
+// import "bootstrap";
+// import "jquery"
 import "bootstrap/dist/css/bootstrap.min.css";
