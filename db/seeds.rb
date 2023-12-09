@@ -12,12 +12,12 @@
 # user.password = 'password'
 # user.password_confirmation = 'password'
 # user.save!
-
-user = User.find_by(username: 'admin')
-
-user_home_directory = user.directories.find_by(name: 'home')
-
-file_path = 'C:\Users\dvtie\Downloads\test_file1.jfif'
-filename = File.basename(file_path)
-
-user_home_directory.files.attach(io: File.open(file_path), filename: filename)
+#
+# user = User.find_by(username: 'admin')
+#
+# user_home_directory = user.directories.find_by(name: 'home')
+#
+# file_path = 'C:\Users\dvtie\Downloads\test_file1.jfif'
+# filename = File.basename(file_path)
+#
+# user_home_directory.files.attach(io: File.open(file_path), filename: filename)
