@@ -12,7 +12,7 @@
     "jquery": "^3.7.1"
   },
   "devDependencies": {
-    "esbuild": "0.19.4",
+    "esbuild": "0.19.8",
     "webpack": "^5.89.0"
   }
 }
