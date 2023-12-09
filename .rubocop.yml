@@ -19,6 +19,9 @@ Style/WordArray:
 Style/ClassAndModuleChildren:
   Enabled: false
 
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
@@ -34,6 +37,9 @@ Layout/TrailingEmptyLines:
 Layout/LineLength:
   Enabled: false
 
+Layout/FirstArrayElementIndentation:
+  Enabled: false
+
 Metrics/AbcSize:
   Enabled: false
 
@@ -44,4 +50,7 @@ Metrics/CyclomaticComplexity:
   Enabled: false
 
 Metrics/PerceivedComplexity:
+  Enabled: false
+
+Lint/UselessAssignment:
   Enabled: false

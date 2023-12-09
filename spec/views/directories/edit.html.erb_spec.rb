@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "directories/edit", type: :view do
   let(:directory) {
-    Directory.create!()
+    Directory.create!
   }
 
   before(:each) do
