@@ -340,6 +340,7 @@ DEPENDENCIES
   rails (~> 7.0.8)
   rspec-rails
   rubocop
+  sassc-rails
   selenium-webdriver
   simplecov
   sprockets-rails
@@ -353,4 +354,4 @@ RUBY VERSION
    ruby 3.1.4p223
 
 BUNDLED WITH
-   2.3.26
+   2.3.25
