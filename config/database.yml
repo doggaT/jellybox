@@ -72,6 +72,5 @@ test:
 #
 production:
   <<: *default
-  database: JellyBox_production
-  username: JellyBox
-  password: <%= ENV["JELLYBOX_DATABASE_PASSWORD"] %>
+  url: <%=ENV['DATABASE_URL'] %>
+
