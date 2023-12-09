@@ -1,6 +1,6 @@
 require "test_helper"
 
-class AboutControllerControllerTest < ActionDispatch::IntegrationTest
+class AboutControllerTest < ActionDispatch::IntegrationTest
   test "should get about" do
     get "/about"
     assert_response :success

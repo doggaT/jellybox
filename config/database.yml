@@ -47,8 +47,8 @@ development:
 test:
   <<: *default
   database: JellyBox_test
-  username: <%= ENV.fetch('POSTGRES_USER', nil) %>
-  password: <%= ENV.fetch('POSTGRES_PASSWORD', nil) %>
+  username: develop
+  password: develop
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is

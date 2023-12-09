@@ -56,7 +56,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_18_162023) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "directory_id", null: false
-    t.string "filename"
     t.index ["directory_id"], name: "index_file_nodes_on_directory_id"
   end
 
