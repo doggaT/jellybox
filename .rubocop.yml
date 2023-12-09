@@ -25,6 +25,9 @@ Style/IfUnlessModifier:
 Style/ClassAndModuleChildren:
   Enabled: false
 
+Style/SymbolProc:
+  Enabled: false
+
 Style/MethodCallWithoutArgsParentheses:
   Enabled: false
 
@@ -41,6 +44,9 @@ Layout/EmptyLinesAroundMethodBody:
   Enabled: false
 
 Layout/TrailingEmptyLines:
+  Enabled: false
+
+Layout/EmptyLines:
   Enabled: false
 
 Layout/TrailingWhitespace:
@@ -68,4 +74,7 @@ Metrics/BlockLength:
   Enabled: false
 
 Lint/UselessAssignment:
+  Enabled: false
+
+Lint/ScriptPermission:
   Enabled: false
