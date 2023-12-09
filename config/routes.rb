@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  # resources :subdirectories
+  get 'about/index'
+  get '/about', to: 'about#index'
   resources :directories do
     member do
       get 'new_subdirectory'
       post 'attach_files'
-      # post 'subdirectories', to: 'directories#create_subdirectory'
       post 'create_subdirectory'
       post 'directories', to: 'directories#create'
       delete '/directories/:id/attachments/:attachment_id', to: 'directories#delete_attachment', as: 'delete_attachment'
