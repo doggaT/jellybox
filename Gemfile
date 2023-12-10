@@ -16,13 +16,14 @@ gem 'jsbundling-rails'
 gem 'pg'
 gem 'puma', '~> 5.0'
 gem 'rails', '~> 7.0.8'
+gem 'rails_12factor'
 gem 'sprockets-rails'
 gem 'stimulus-rails'
 gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-
 # gem 'sassc-rails'
 gem 'rake'
+gem 'terser'
 # gem 'dartsass-sprockets'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 gem 'bcrypt', '~> 3.1.7'
@@ -40,8 +41,8 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   # gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'debug', platforms: %i[mri mingw x64_mingw]
-  gem 'rubocop', require: false
   gem 'rspec-rails'
+  gem 'rubocop', require: false
 end
 
 group :development do
