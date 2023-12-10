@@ -7,6 +7,6 @@
     "esbuild": "^0.19.9"
   },
   "scripts": {
-    "build": "esbuild app/javascript/controllers/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=/assets"
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=/assets"
   }
 }
