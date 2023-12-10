@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.4'
-
+# ruby '3.1.4'
+ruby '2.7.0'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 # gem 'aws-sdk-s3'
 gem 'azure-storage'
@@ -22,6 +22,8 @@ gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'rspec-rails'
 gem 'sassc-rails'
+gem 'rake'
+# gem 'dartsass-sprockets'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 gem 'bcrypt', '~> 3.1.7'
 
