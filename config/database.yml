@@ -72,7 +72,9 @@ test:
 #
 production:
   <<: *default
-  adapter: postgresql
-  encoding: unicode
+#  database: jellybox_production
+#  username: jellybox
+#  adapter: postgresql
+#  encoding: unicode
   url: <%=ENV['DATABASE_URL'] %>
 
