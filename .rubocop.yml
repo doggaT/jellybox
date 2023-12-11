@@ -16,6 +16,9 @@ Style/NumericLiterals:
 Style/BlockDelimiters:
   Enabled: false
 
+Style/SpecialGlobalVars:
+  Enabled: false
+
 Style/WordArray:
   Enabled: false
 
@@ -31,7 +34,13 @@ Style/SymbolProc:
 Style/BlockComments:
   Enabled: false
 
+Style/PerlBackrefs:
+  Enabled: false
+
 Style/MethodCallWithoutArgsParentheses:
+  Enabled: false
+
+Style/RedundantFetchBlock:
   Enabled: false
 
 Style/Documentation:
@@ -40,7 +49,13 @@ Style/Documentation:
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
+Layout/MultilineOperationIndentation:
+  Enabled: false
+
 Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLineAfterGuardClause:
   Enabled: false
 
 Layout/EmptyLinesAroundMethodBody:
