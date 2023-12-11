@@ -6,6 +6,7 @@ ruby '3.1.4'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 # gem 'aws-sdk-s3'
 gem 'azure-storage'
+gem 'azure-storage-blob'
 gem 'bootsnap', require: false
 # gem 'bootstrap'
 gem 'bootstrap-sass'
