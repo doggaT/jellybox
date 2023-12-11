@@ -26,7 +26,7 @@
    service: AzureStorage
    storage_account_name: jellyboxstorage
    storage_access_key: <%= Rails.application.credentials.dig(:azure_storage, :storage_access_key) %>
-   container: files-container-<%= Rails.env %>
+   container: files-container
 
 # mirror:
 #   service: Mirror
