@@ -332,8 +332,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  azure-storage
-  azure-storage-blob (= 1.1.0)
+  azure-storage (~> 0.15.0.preview)
+  azure-storage-blob (~> 1.1.0)
   bcrypt (~> 3.1.7)
   bootsnap
   bootstrap-sass
