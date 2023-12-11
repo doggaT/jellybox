@@ -137,6 +137,11 @@
   resolved "https://registry.npmjs.org/@rails/actioncable/-/actioncable-7.1.2.tgz"
   integrity sha512-KGziTZfbmGm8/fHOpj515xupbYU+49hsp4etfdpoDJ/CEY2bRZR0cyFcJkpK6n0t/sxOHNWY6bo9vSgXZvT7Mg==
 
+bootstrap@^5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.3.2.tgz#97226583f27aae93b2b28ab23f4c114757ff16ae"
+  integrity sha512-D32nmNWiQHo94BKHLmOrdjlL05q1c8oxbtBphQFb9Z5to6eGRDCm0QgeaZ4zFBHzfg2++rqa2JkqCcxDy0sH0g==
+
 esbuild@^0.19.9:
   version "0.19.9"
   resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.19.9.tgz"
@@ -165,6 +170,6 @@ esbuild@^0.19.9:
     "@esbuild/win32-ia32" "0.19.9"
     "@esbuild/win32-x64" "0.19.9"
 
-"idiomorph@git+https://github.com/basecamp/idiomorph.git#rollout-build":
+"idiomorph@https://github.com/basecamp/idiomorph#rollout-build":
   version "0.0.8"
-  resolved "git+ssh://git@github.com/basecamp/idiomorph.git#e906820368e4c9c52489a3336b8c3826b1bf6de5"
+  resolved "https://github.com/basecamp/idiomorph#e906820368e4c9c52489a3336b8c3826b1bf6de5"

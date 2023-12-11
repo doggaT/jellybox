@@ -72,8 +72,9 @@ test:
 #
 production:
   <<: *default
-#  database: jellybox_production
-#  username: jellybox
+  database: jellybox_production
+  username: jellybox
+  password: <%=ENV['JELLYBOX_DATABASE_PASSWORD'] %>
 #  adapter: postgresql
 #  encoding: unicode
   url: <%=ENV['DATABASE_URL'] %>
