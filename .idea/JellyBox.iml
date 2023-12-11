@@ -48,7 +48,6 @@
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.20, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.17.0, ruby-3.1.4-p223) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bootstrap (v5.3.2, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.4.1, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="brakeman (v6.1.0, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, ruby-3.1.4-p223) [gem]" level="application" />
@@ -94,7 +93,6 @@
     <orderEntry type="library" scope="PROVIDED" name="parallel (v1.23.0, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parser (v3.2.2.4, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v1.5.4, ruby-3.1.4-p223) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="popper_js (v2.11.8, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="psych (v5.1.1.1, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v5.0.4, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v5.6.7, ruby-3.1.4-p223) [gem]" level="application" />
@@ -354,11 +352,6 @@
               <RakeTaskImpl description="Load asset compile environment" fullCommand="assets:environment" id="environment" />
               <RakeTaskImpl description="Compile all the assets named in config.assets.precompile" fullCommand="assets:precompile" id="precompile" />
               <RakeTaskImpl description="" fullCommand="assets:clean" id="clean" />
-            </subtasks>
-          </RakeTaskImpl>
-          <RakeTaskImpl id="autoprefixer">
-            <subtasks>
-              <RakeTaskImpl description="Show selected browsers and prefixed CSS properties and values" fullCommand="autoprefixer:info" id="info" />
             </subtasks>
           </RakeTaskImpl>
           <RakeTaskImpl id="cache_digests">
