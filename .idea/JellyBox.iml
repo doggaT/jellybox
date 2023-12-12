@@ -73,6 +73,7 @@
     <orderEntry type="library" scope="PROVIDED" name="io-console (v0.6.0, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="irb (v1.10.1, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.11.5, ruby-3.1.4-p223) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.6.0, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jsbundling-rails (v1.2.1, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v2.7.1, ruby-3.1.4-p223) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="language_server-protocol (v3.17.0.3, ruby-3.1.4-p223) [gem]" level="application" />
