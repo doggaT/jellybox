@@ -1,4 +1,7 @@
-Style/EndOfLine:
+AllCops:
+  NewCops: disable
+
+Layout/EndOfLine:
   EnforcedStyle: lf
 
 Style/FrozenStringLiteralComment:
@@ -76,6 +79,9 @@ Layout/LineLength:
 Layout/FirstArrayElementIndentation:
   Enabled: false
 
+Layout/CommentIndentation:
+  Enabled: false
+
 Metrics/AbcSize:
   Enabled: false
 
@@ -95,4 +101,7 @@ Lint/UselessAssignment:
   Enabled: false
 
 Lint/ScriptPermission:
+  Enabled: false
+
+Naming/VariableNumber:
   Enabled: false
