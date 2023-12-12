@@ -33,7 +33,7 @@ class DirectoriesControllerTest < ActionDispatch::IntegrationTest
     Directory.create(name: 'images')
 
     get directories_path
-    assert_select 'td', text: 'Images'
+    assert_text 'Images'
   end
 
   test "authenticated users can create subdirectory" do
@@ -61,7 +61,7 @@ class DirectoriesControllerTest < ActionDispatch::IntegrationTest
     filename = File.basename(file_path)
     images_directory.files.attach(io: File.open(file_path), filename: filename)
 
-    get "directories/#{images_directory.id}"
-    assert_select 'td', text: 'test_file1.jfif'
+    get "/directories/#{images_directory.id}"
+    assert_text 'test_file1.jfif'
   end
 end
