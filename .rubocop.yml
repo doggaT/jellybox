@@ -10,6 +10,9 @@ Style/FrozenStringLiteralComment:
 Style/StringLiterals:
   Enabled: false
 
+Style/HashSyntax:
+  Enabled: false
+
 Style/SymbolArray:
   Enabled: false
 
